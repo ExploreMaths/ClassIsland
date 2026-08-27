@@ -9,7 +9,8 @@
       "MonitorIsland/1.0.0": {
         "dependencies": {
           "ByteSize": "2.1.2",
-          "LibreHardwareMonitorLib": "0.9.6",
+          "MonitorIsland.Abstractions": "1.0.0",
+          "MonitorIsland.Windows": "1.0.0",
           "System.Diagnostics.PerformanceCounter": "10.0.9"
         },
         "runtime": {
@@ -489,6 +490,26 @@
             "fileVersion": "10.0.926.27113"
           }
         }
+      },
+      "MonitorIsland.Abstractions/1.0.0": {
+        "runtime": {
+          "MonitorIsland.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MonitorIsland.Windows/1.0.0": {
+        "dependencies": {
+          "LibreHardwareMonitorLib": "0.9.6",
+          "MonitorIsland.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "MonitorIsland.Windows.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -721,6 +742,16 @@
       "sha512": "sha512-/utVaFqfaleVsxwCPYbEj1+BrOf2o+kXYDbHtOV1IrhN35y++hyOgV7meG+/n28kR9wEv6iIrRHFXn36+AASPw==",
       "path": "system.threading.accesscontrol/10.0.9",
       "hashPath": "system.threading.accesscontrol.10.0.9.nupkg.sha512"
+    },
+    "MonitorIsland.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonitorIsland.Windows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
